@@ -32,5 +32,6 @@
     "get-urls": "^11.0.0",
     "node-fetch": "^3.2.3",
     "puppeteer": "^13.5.2"
-  }
+  },
+  "type": "module"
 }
