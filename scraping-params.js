@@ -1,3 +1,4 @@
+const WEB_SITE_NAME = 'www.zieglers.com';
 const WEB_SITE_URL = ['https://www.zieglers.com/'];
 const selectors = ['[data-collapsible]', '.navList-action', '.card-figure > a'];
 
@@ -14,4 +15,4 @@ const dataToExtract = {
 	],
 };
 
-export { WEB_SITE_URL, selectors, dataToExtract };
+export { WEB_SITE_NAME, WEB_SITE_URL, selectors, dataToExtract };

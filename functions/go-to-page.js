@@ -1,3 +1,10 @@
+//================= npm packages ====================//
+import fetch from 'node-fetch';
+
+/**
+ * @param {array} arrayURLs // array of urls/links
+ * @returns {array} // one dimentioned array of urls/links;
+ */
 async function goToPage(arrayURLs) {
 	try {
 		const pages = await Promise.all(

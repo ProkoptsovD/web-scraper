@@ -4,7 +4,8 @@
   "description": "simple web-scraper using for study purposes only",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "v1": "cd web-scraper-v1.0 && node index-01.js",
+    "v2": "cd web-scraper-v2.0 && node index-02.js"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,11 @@
+//================= npm packages ====================//
+import * as cheerio from 'cheerio';
+
+/**
+ * @param {array} arrayMarkupStr // array of whole page markup, type should be is string
+ * @param {string} pathSelector // css selector where is stored link to next page
+ * @returns {array} // return array of links
+ */
 async function getLinks(arrayMarkupStr, pathSelector) {
 	try {
 		const links = await Promise.all(
