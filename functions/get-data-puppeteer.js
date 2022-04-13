@@ -17,7 +17,7 @@ async function getDataPuppeteer(arrayOfLinks, callbackFn, objSearchConfig) {
 			'--disable-gpu',
 			'--window-size=400x400',
 		],
-		headless: false,
+		headless: true,
 	};
 
 	const arrData = [];
