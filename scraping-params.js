@@ -1,6 +1,10 @@
 const WEB_SITE_NAME = 'www.zieglers.com';
 const WEB_SITE_URL = ['https://www.zieglers.com/'];
-const selectors = ['[data-collapsible]', '.navList-action', '.card-figure > a'];
+const selectors = [
+	'[data-collapsible="navPages-10"]',
+	'ul.navList .navList-action',
+	'.card-figure > a',
+];
 
 const dataToExtract = {
 	title: 'h1.productView-title',
